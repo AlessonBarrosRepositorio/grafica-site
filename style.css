@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top,.midle,.bottom{
+    width: 100%;
+}
+.top{
+    position: absolute;
+    top: 0;
+    height: 15%;
+    background-color:#ffee00;
+}
+.midle{
+    position: absolute;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    background-color: #000;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#areaSlide {
+    will-change: transform, opacity;
+  }
+ 
