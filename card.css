@@ -129,8 +129,9 @@
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #666;
     color: white;
+    text-shadow: 2px 2px 4px black;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -139,7 +140,7 @@
 }
 
 .scroll-btn:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo mais escura ao passar o mouse */
+    background-color: rgba(250, 250, 250, 0.7); /* Cor de fundo mais escura ao passar o mouse */
 }
 
 .scroll-left-btn {

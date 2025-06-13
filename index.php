@@ -29,17 +29,51 @@
     </div>
     <div class="midle">
         <div class="left">
-            <div class="areaLeft"></div>
+            <div class="areaLeft">
+                <div class="notices">
+                    <div class="noticesArea">
+                        <div id="btnWhats" class="btnNotices">
+                            <a href="https://wa.me/+5521978841430" target="_blank">
+                                21 9 7884 1430
+                            </a>
+                        </div>
+                        <div id="btnInstagran" class="btnNotices">
+                            <a href="https://www.instagram.com/graficarapidaprofissional/" target="_blank">
+                                @graficarapidaprofissional
+                            </a>
+                        </div>
+                        <div id="btnLocalizacao" class="btnNotices">
+                            <a href="https://maps.app.goo.gl/hdbdAhSQeAzbFqcU9" target="_blank">
+                                Localização
+                            </a>
+                        </div>
+                        <div id="btnAvalie" class="btnNotices">
+                            <a href="https://g.page/r/CSmhGf5IMerlEBM/review" target="_blank">
+                                Nos Avalie
+                            </a>
+                        </div>
+                        <div id="btnServicos" class="btnNotices" >
+                            <a href="./pages/servicos.php">
+                                Produtos e Serviços
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="editavel">
             <div class="areaEditavel">
-                <div class="slide 02">
-                    <div class="areaSlide" id="areaSlide">              
+                <div class="conteudo">
+                    <div class="areaConteudo">
+                        <div class="slide 02">
+                            <div class="areaSlide" id="areaSlide">              
+                            </div>
+                            <div class="areaEsfumadaEsquerda"></div>
+                            <div class="areaEsfumadaDireita"></div>
+                            <button class="scroll-btn scroll-left-btn" id="scrollLeftBtn"></button>
+                            <button class="scroll-btn scroll-right-btn" id="scrollRightBtn"></button>
+                        </div>
                     </div>
-                    <div class="areaEsfumadaEsquerda"></div>
-                    <div class="areaEsfumadaDireita"></div>
-                    <button class="scroll-btn scroll-left-btn" id="scrollLeftBtn">&lt;</button>
-                    <button class="scroll-btn scroll-right-btn" id="scrollRightBtn">&gt;</button>
                 </div>
             </div>
         </div>
