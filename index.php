@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="btns.css">
     <link rel="stylesheet" href="midle.css">
     <link id="cardCSS" rel="stylesheet" href="./card.css">
+    
+    <link id="cardCSS" rel="stylesheet" href="reset.css">
 
     <script src="./cardScript/cardsCadastrados.js" defer></script>
     <script src="./cardScript/btnCardNav.js" defer></script>
@@ -34,27 +36,37 @@
                     <div class="noticesArea">
                         <div id="btnWhats" class="btnNotices">
                             <a href="https://wa.me/+5521978841430" target="_blank">
-                                21 9 7884 1430
+                                <div class="areaLink">
+                                    <b>21 9 7884 1430</b>
+                                </div>                                
                             </a>
                         </div>
                         <div id="btnInstagran" class="btnNotices">
                             <a href="https://www.instagram.com/graficarapidaprofissional/" target="_blank">
-                                @graficarapidaprofissional
+                                <div class="areaLink">
+                                    <b>@graficarapidaprofissional</b>
+                                </div>                               
                             </a>
                         </div>
                         <div id="btnLocalizacao" class="btnNotices">
                             <a href="https://maps.app.goo.gl/hdbdAhSQeAzbFqcU9" target="_blank">
-                                Localização
+                                <div class="areaLink">
+                                    <b>Localização</b>
+                                </div>                               
                             </a>
                         </div>
                         <div id="btnAvalie" class="btnNotices">
                             <a href="https://g.page/r/CSmhGf5IMerlEBM/review" target="_blank">
-                                Nos Avalie
+                                <div class="areaLink">
+                                    <b>Nos Avalie</b>
+                                </div>
                             </a>
                         </div>
                         <div id="btnServicos" class="btnNotices" >
                             <a href="./pages/servicos.php">
-                                Produtos e Serviços
+                                <div class="areaLink">
+                                    <b>Produtos e Serviços</b>
+                                </div>                               
                             </a>
                         </div>
                     </div>
