@@ -13,7 +13,7 @@
 .notices{
     width: 90%;
     height: 80%;
-    background-color: #fff;
+    background-color: #fffc;
     border-radius: 10px;
     position: absolute;
     box-shadow: 1px 2px 6px black;
@@ -47,7 +47,7 @@
 .conteudo{
     width: 96%;
     height: 96%;
-    background-color: #fff;
+    background-color: #fffc;
     position: absolute;
     top: 0;
     right: 0;
