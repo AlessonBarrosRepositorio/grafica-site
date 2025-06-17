@@ -18,16 +18,16 @@
                 }
             }
     </script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="btns.css">
-    <link rel="stylesheet" href="midle.css">
-    <link id="cardCSS" rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/btns.css">
+    <link rel="stylesheet" href="./style/midle.css">
+    <link id="cardCSS" rel="stylesheet" href="./style/card.css">
     
-    <link id="cardCSS" rel="stylesheet" href="reset.css">
+    <link id="cardCSS" rel="stylesheet" href="../reset.css">
 
-    <script src="./cardScript/cardsCadastrados.js" defer></script>
-    <script src="./cardScript/btnCardNav.js" defer></script>
-    <script src="./cardScript/multiplicarSlider.js" defer></script>
+    <script src="../cardScript/cardsCadastrados.js" defer></script>
+    <script src="../cardScript/btnCardNav.js" defer></script>
+    <script src="../cardScript/multiplicarSlider.js" defer></script>
 </head>
 <body>
     <div class="top">
@@ -51,7 +51,7 @@
         </div>
     </div>
     <div class="midle">
-        <div class="left">
+        <div class="left" style="display: none;">
             <div class="areaLeft">
                 <div class="notices">
                     <div class="noticesArea">

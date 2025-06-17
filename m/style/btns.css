@@ -1,0 +1,42 @@
+.btn-whatsapp{
+    border-radius: 50%;
+    background-color: #25D366;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 4px #000a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    bottom: 0;
+    margin: auto;  
+}
+.areaBtn-whatsapp{
+    width: 100%;
+    height: 100%;
+}
+.areaBtn-whatsapp>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.areaImagemA{    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.areaBtn-whatsapp>a>.areaImagemA>img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 70%;
+}

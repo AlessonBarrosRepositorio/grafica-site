@@ -1,29 +1,32 @@
 .selecao-de-personagens{
     width: 90%;
-    height: 96%;
+    height: 90%;
     display: flex;
     align-items: center;
        /* gap: 30px;
 min-height: calc(100vh - 152px);*/
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    position: relative;
 }
 .personagens{
-    height: 92%;
-    width: 48%;
+    height: 38%;
+    width: 98%;
     background-color: #4444;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 10px;
-
+    box-shadow: 1px 2px 6px black;
+    border-radius:10px;
 }
-.personagem{
-    border-radius: 10px;  
+.top02area{
+    position: absolute;
+    top: 5%;
 }
-.personagem>img{
-    border-radius: 10px;    
+.bottom02area{
+    position: absolute;
+    bottom: 0;
 }
 .personagem-selecionado{
     display: flex;
@@ -31,22 +34,32 @@ min-height: calc(100vh - 152px);*/
     justify-content: center;
     flex-direction: column;   
     text-align: center;
-    height: 92%;
-    width: 48%;
+    height: 58%;
+    width: 90%;
 }
-.personagem-grande{
-    width: 60%;
-    height:70%;
+.personagem-selecionado .personagem-grande{
+    width: 80%;
+    height:90%;    
     box-shadow: 1px 2px 6px black;
-    border-radius: 10px;  
+    border-radius:10px;
 }
 .informacoes-personagem{
     width: 100%;
     height: 40%;
 }
 .personagem{
+    width: 20%;
+    height: 32%;
+    background-color: aliceblue;
+    margin: 2%;
+    border-radius: 10px;  
+}
+.personagem>img{
+    border-radius: 10px;
+}
+.personagemS{
     width: 15%;
-    height: 24%;
+    height: 15%;
     background-color: aliceblue;
     margin: 2%;  
 }
@@ -63,15 +76,16 @@ min-height: calc(100vh - 152px);*/
     overflow: hidden;
     overflow-y: scroll;
     
-}.informacoes-personagem{
+}
+.informacoes-personagem{
     margin-top:1rem;
 }
 .nome-personagem{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 .descricao-personagem{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 .titulo{
     font-size: 1rem;
