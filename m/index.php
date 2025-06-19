@@ -23,33 +23,18 @@
     <link rel="stylesheet" href="./style/midle.css">
     <link id="cardCSS" rel="stylesheet" href="./style/cardM.css">
     
+    <link id="cardCSS" rel="stylesheet" href="./style/btnMobile/btnOpcoes.css">
+    
     <link id="cardCSS" rel="stylesheet" href="../reset.css">
 
     <script src="../cardScript/cardsCadastrados.js" defer></script>
     <script src="../cardScript/btnCardNav.js" defer></script>
     <script src="../cardScript/multiplicarSlider.js" defer></script>
+    
+    <script src="./scripts/btnOpcoes.js" defer></script>
 </head>
 <body>
-    <button id="show-or-hide" class="butaodeOpcoes noneDesk">
-        <div class="areaTIRA">
-            <div class="tira"></div>
-            <div class="tira"></div>
-            <div class="tira"></div>
-        </div>
-        <div id="Opcoes" class="opcoes">
-            <nav class="nave absolute  centro 02">
-                <div class="navArea">
-                <div class="btnNav01 centro somb" onclick="home()"><b>Pagina Principal</b></div>
-                <div class="btnNav01 centro somb" onclick="servico()"><b>Serviços</b></div>
-                <div class="btnNav01 centro somb" onclick="perguntasRespostas()" ><b id="perguntasRespostasBTN" onclick="perguntasRespostas()">Perguntas Frequentes</b></div>
-                <div class="btnNav01 centro somb" onclick="trabalhos()"><b>Trabalhos</b></div> 
-                <div class="btnNav01 centro somb" onclick="quemSou()" ><b>Quem Sou</b></div>                  
-                
-                <div class="btnNav01 centro somb what01 fontWei"><a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
-                </div>                
-            </nav>
-        </div>
-    </button>
+    
     <div class="top">
         <div class="topArea">
             <div class="logo">
@@ -59,6 +44,26 @@
                     </a>
                 </div>
             </div>
+            <button id="show-or-hide" class="butaodeOpcoes noneDesk">
+                <div class="areaTIRA">
+                    <div class="tira"></div>
+                    <div class="tira"></div>
+                    <div class="tira"></div>
+                </div>
+                <div id="Opcoes" class="opcoes">
+                    <nav class="nave absolute  centro 02">
+                        <div class="navArea">
+                        <div class="btnNav01 centro somb" onclick="home()"><b>Pagina Principal</b></div>
+                        <div class="btnNav01 centro somb" onclick="servico()"><b>Serviços</b></div>
+                        <div class="btnNav01 centro somb" onclick="perguntasRespostas()" ><b id="perguntasRespostasBTN" onclick="perguntasRespostas()">Perguntas Frequentes</b></div>
+                        <div class="btnNav01 centro somb" onclick="trabalhos()"><b>Trabalhos</b></div> 
+                        <div class="btnNav01 centro somb" onclick="quemSou()" ><b>Quem Sou</b></div>                  
+                        
+                        <div class="btnNav01 centro somb what01 fontWei"><a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                        </div>                
+                    </nav>
+                </div>
+            </button>
             <div class="btn-whatsapp">
                 <div class="areaBtn-whatsapp">
                     <a href="https://wa.me/+5521978841430">
