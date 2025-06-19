@@ -6,7 +6,7 @@
     margin: auto;
     width: 50px;
     height: 50px;
-    background-color: #ccc;
+    background-color: #000;
     border-radius: 50%;
     box-shadow: 1px 3px 6px black;
     z-index: 9999;
@@ -23,7 +23,7 @@
     width: 90%;
     height:10%;
     margin: 3% 0 3% 0;
-    background-color: #fff;
+    background-color: #666;
     border-radius: 10px;
 }
 .butaodeOpcoes, .areaTIRA, .tira:hover{
@@ -35,7 +35,7 @@
     right: 0;
     width: 50%; /* Faz o elemento ter a largura da viewport */
     height: 100vh; /* Faz o elemento ter a altura da viewport */
-    background-color: #aaaa; /* Exemplo de fundo */
+    background-color: #222e; /* Exemplo de fundo */
     display: none;
 }
 .nave{
@@ -58,28 +58,4 @@
     left: 0;
     right:0;
     display: flex;
-}
-.btnNav01{
-    width: 88%;
-    height: 10%;
-    margin-top:8%;
-    margin-bottom:8%;
-    background-color:  #04045B;
-    border-radius: 10px;
-}
-.btnNav01:hover{
-    cursor: pointer;
-}
-.btnNav01>b{
-    font-size:1rem;
-    font-weight: 700;
-    background-color: #fff;
-    width: 80%;
-    height: 70%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:  #04045B;
-
 }

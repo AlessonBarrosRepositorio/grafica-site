@@ -52,15 +52,45 @@
                 </div>
                 <div id="Opcoes" class="opcoes">
                     <nav class="nave absolute  centro 02">
-                        <div class="navArea">
-                        <div class="btnNav01 centro somb" onclick="home()"><b>Pagina Principal</b></div>
-                        <div class="btnNav01 centro somb" onclick="servico()"><b>Serviços</b></div>
-                        <div class="btnNav01 centro somb" onclick="perguntasRespostas()" ><b id="perguntasRespostasBTN" onclick="perguntasRespostas()">Perguntas Frequentes</b></div>
-                        <div class="btnNav01 centro somb" onclick="trabalhos()"><b>Trabalhos</b></div> 
-                        <div class="btnNav01 centro somb" onclick="quemSou()" ><b>Quem Sou</b></div>                  
-                        
-                        <div class="btnNav01 centro somb what01 fontWei"><a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
-                        </div>                
+                        <div class="notices">
+                    <div class="noticesArea">
+                        <div id="btnWhats" class="btnNotices">
+                            <a href="https://wa.me/+5521978841430" target="_blank">
+                                <div class="areaLink">
+                                    <b>21 9 7884 1430</b>
+                                </div>                                
+                            </a>
+                        </div>
+                        <div id="btnInstagran" class="btnNotices">
+                            <a href="https://www.instagram.com/graficarapidaprofissional/" target="_blank">
+                                <div class="areaLink">
+                                    <b>@graficarapidaprofissional</b>
+                                </div>                               
+                            </a>
+                        </div>
+                        <div id="btnLocalizacao" class="btnNotices">
+                            <a href="https://maps.app.goo.gl/hdbdAhSQeAzbFqcU9" target="_blank">
+                                <div class="areaLink">
+                                    <b>Localização</b>
+                                </div>                               
+                            </a>
+                        </div>
+                        <div id="btnAvalie" class="btnNotices">
+                            <a href="https://g.page/r/CSmhGf5IMerlEBM/review" target="_blank">
+                                <div class="areaLink">
+                                    <b>Nos Avalie</b>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="btnServicos" class="btnNotices" >
+                            <a href="./pages/servicos.php">
+                                <div class="areaLink">
+                                    <b>Produtos e Serviços</b>
+                                </div>                               
+                            </a>
+                        </div>
+                    </div>
+                </div>               
                     </nav>
                 </div>
             </button>
@@ -68,7 +98,7 @@
                 <div class="areaBtn-whatsapp">
                     <a href="https://wa.me/+5521978841430">
                         <div class="areaImagemA">
-                            <img src="./wb.png" alt="imagem whatsapp" srcset="">
+                            <img src="../wb.png" alt="imagem whatsapp" srcset="">
                         </div>                        
                     </a>
                 </div>
