@@ -105,50 +105,7 @@
             </div>
         </div>
     </div>
-    <div class="midle">
-        <div class="left" style="display: none;">
-            <div class="areaLeft">
-                <div class="notices">
-                    <div class="noticesArea">
-                        <div id="btnWhats" class="btnNotices">
-                            <a href="https://wa.me/+5521978841430" target="_blank">
-                                <div class="areaLink">
-                                    <b>21 9 7884 1430</b>
-                                </div>                                
-                            </a>
-                        </div>
-                        <div id="btnInstagran" class="btnNotices">
-                            <a href="https://www.instagram.com/graficarapidaprofissional/" target="_blank">
-                                <div class="areaLink">
-                                    <b>@graficarapidaprofissional</b>
-                                </div>                               
-                            </a>
-                        </div>
-                        <div id="btnLocalizacao" class="btnNotices">
-                            <a href="https://maps.app.goo.gl/hdbdAhSQeAzbFqcU9" target="_blank">
-                                <div class="areaLink">
-                                    <b>Localização</b>
-                                </div>                               
-                            </a>
-                        </div>
-                        <div id="btnAvalie" class="btnNotices">
-                            <a href="https://g.page/r/CSmhGf5IMerlEBM/review" target="_blank">
-                                <div class="areaLink">
-                                    <b>Nos Avalie</b>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="btnServicos" class="btnNotices" >
-                            <a href="./pages/servicos.php">
-                                <div class="areaLink">
-                                    <b>Produtos e Serviços</b>
-                                </div>                               
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="midle"> 
         <div class="editavel">
             <div class="areaEditavel">
                 <div class="conteudo">
