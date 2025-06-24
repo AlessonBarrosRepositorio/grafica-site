@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráfica Rápida</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/midle.css">
+    <link rel="stylesheet" href="../style/midleS.css">
     
     <link id="cardCSS" rel="stylesheet" href="../style/galeriaM.css">
     
@@ -90,7 +90,6 @@
         </div>
     </div>
     <div class="midle">
-
         <div class="editavel">
             <div class="areaEditavel">
                 <div class="conteudo">

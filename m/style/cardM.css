@@ -150,3 +150,19 @@
 .scroll-right-btn {
     right: 10px;
 }
+@media  (max-width:900px) and (max-height: 500px){
+    
+    .slide{
+        width: 90%;
+        height: 92%;      
+    }
+    .carta {
+        min-width: 46%; /* Define o tamanho mínimo de largura */
+        min-height: 88%; /* Define o tamanho mínimo de altura */
+    }
+    .h2Carta{
+        width: 90%;
+        height: 22%;
+
+    }
+}
