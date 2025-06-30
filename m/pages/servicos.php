@@ -18,7 +18,7 @@
     
 </head>
 <body>
-        <a style="z-index:9999;" href="../index.php"><-</a>
+
     <div class="top">
         <div class="topArea">
             <div class="logo">
@@ -90,6 +90,7 @@
         </div>
     </div>
     <div class="midle">
+        <a style="z-index:9999; position:absolute; top:5%; left:10%;" href="../index.php"><-</a>
         <div class="editavel">
             <div class="areaEditavel">
                 <div class="conteudo">
