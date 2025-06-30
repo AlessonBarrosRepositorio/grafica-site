@@ -91,3 +91,6 @@
      /*word-break: break-word;*/
      text-align: center;
 }
+ul{
+    list-style: none;
+}
