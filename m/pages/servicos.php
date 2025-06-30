@@ -90,7 +90,7 @@
         </div>
     </div>
     <div class="midle">
-        <a style="z-index:9999; position:absolute; top:5%; left:10%;" href="../index.php"><-</a>
+        <a style="z-index:9999; position:absolute; top:5%; left:10%; width:20px; height:20px;" href="../index.php"><img src="../../midia/seta.png" alt=""></a>
         <div class="editavel">
             <div class="areaEditavel">
                 <div class="conteudo">

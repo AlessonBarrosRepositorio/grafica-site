@@ -1,3 +1,12 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+     -webkit-tap-highlight-color: transparent;
+}
+
+button,
+div,
+img,
+span {
+  user-select: none;
 }
