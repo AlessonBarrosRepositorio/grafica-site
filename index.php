@@ -14,7 +14,7 @@
             if (isMobileDevice()) {
                 // Verificar se já não estamos na página móvel para evitar loop
                 if (!window.location.pathname.includes('/m/')) {
-                    window.location.href = './m/index.php';
+                    window.location.href = './m/index.php?reload=true';
                 }
             }
     </script>

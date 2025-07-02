@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráfica Rápida</title>
     <script>
+         
+         let orientacaoAtual = window.innerWidth > window.innerHeight ? "paisagem" : "retrato";
+
+        function verificarErecarregarPagina() {
+            // Obtém a largura e a altura atuais da janela de visualização.
+            const larguraJanela = window.innerWidth;
+            const alturaJanela = window.innerHeight;
+
+            // Determina a nova orientação com base nas dimensões atuais da janela.
+            const novaOrientacao = larguraJanela > alturaJanela ? "paisagem" : "retrato";
+
+            // Compara a nova orientação com a orientação previamente armazenada.
+            if (novaOrientacao !== orientacaoAtual) {
+                // Se a orientação mudou, atualiza a variável global...
+                orientacaoAtual = novaOrientacao;
+                // ...e recarrega a página.
+                location.reload();
+                // Não é necessário continuar executando código após o reload, então podemos retornar.
+                return;
+            }
+        }
+
+        // Adiciona um "ouvinte" ao evento 'resize' (redimensionamento da janela).
+        // Este evento é disparado quando a tela é girada em dispositivos móveis.
+        window.addEventListener('resize', verificarErecarregarPagina);
+        //------------------------------------------------------------------------------------------------
         // Função para verificar se o dispositivo é móvel
         function isMobileDevice() {
             return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
