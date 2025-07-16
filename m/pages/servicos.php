@@ -12,9 +12,49 @@
     <link id="cardCSS" rel="stylesheet" href="../../reset.css">
     
     <link id="cardCSS" rel="stylesheet" href="../style/btns.css">
-    <script src="../scripts/galeria.js" defer></script>
+    <script src="../../galeria.js" defer></script>
     <link id="cardCSS" rel="stylesheet" href="../style/btnMobile/btnOpcoes.css">
-    <script src="../scripts/btnOpcoes.js" defer></script>    
+    <script src="../scripts/btnOpcoes.js" defer></script>
+        <script>
+         
+         let orientacaoAtual = window.innerWidth > window.innerHeight ? "paisagem" : "retrato";
+
+        function verificarErecarregarPagina() {
+            // Obtém a largura e a altura atuais da janela de visualização.
+            const larguraJanela = window.innerWidth;
+            const alturaJanela = window.innerHeight;
+
+            // Determina a nova orientação com base nas dimensões atuais da janela.
+            const novaOrientacao = larguraJanela > alturaJanela ? "paisagem" : "retrato";
+
+            // Compara a nova orientação com a orientação previamente armazenada.
+            if (novaOrientacao !== orientacaoAtual) {
+                // Se a orientação mudou, atualiza a variável global...
+                orientacaoAtual = novaOrientacao;
+                // ...e recarrega a página.
+                location.reload();
+                // Não é necessário continuar executando código após o reload, então podemos retornar.
+                return;
+            }
+        }
+
+        // Adiciona um "ouvinte" ao evento 'resize' (redimensionamento da janela).
+        // Este evento é disparado quando a tela é girada em dispositivos móveis.
+        window.addEventListener('resize', verificarErecarregarPagina);
+        //------------------------------------------------------------------------------------------------
+        // Função para verificar se o dispositivo é móvel
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+            }
+
+            // Verificar e redirecionar se for dispositivo móvel
+            if (isMobileDevice()) {
+                // Verificar se já não estamos na página móvel para evitar loop
+                if (!window.location.pathname.includes('/m/')) {
+                    window.location.href = './m/index.php';
+                }
+            }
+    </script>    
     
 </head>
 <body>
@@ -100,7 +140,7 @@
                                 <h1 class="titulo">Galeria de Trabalhos</h1>
                                 <ul class="lista-de-personagens">
                                     <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="tela de proteção janela com abertura dupla">
-                                        <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="tela de proteção janela com abertura dupla">
+                                        <img src="../../midia/fotoPequenaFolhetoGlossy.png" alt="tela de proteção janela com abertura dupla">
                                     </li>
                                     <li class="personagem" id="imagem02" data-name="Tela de Janela com abertura" data-description="Tela de Janela com abertura">
                                         <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela com abertura">
@@ -129,7 +169,7 @@
                                 </ul>
                             </section>
                             <section class="personagem-selecionado top02area">
-                                <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="tela de proteção janela com abertura dupla">
+                                <img class="personagem-grande" src="../../midia/fotoGrandeFolhetoGlossy.png" alt="tela de proteção janela com abertura dupla">
                                 <div class="informacoes-personagem">
                                     <h2 class="nome-personagem" id="nome-personagem">tela de proteção janela com abertura dupla</h2>
                                     <p class="descricao-personagem" id="descricao-personagem">tela de proteção janela com abertura dupla</p>

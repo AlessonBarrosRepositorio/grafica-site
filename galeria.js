@@ -1,6 +1,6 @@
 // Vetor com links de imagens
 const imagens = {
-    imagem01: "https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg",
+    imagem01: "../../midia/fotoGrandeFolhetoGlossy.png",
     imagem02: "https://live.staticflickr.com/65535/54073908558_ce21184723_m.jpg",
     imagem03: "https://live.staticflickr.com/65535/54073980099_5c351549ec_m.jpg",
     imagem04: "https://live.staticflickr.com/65535/54072771492_3516312fb5_m.jpg",
