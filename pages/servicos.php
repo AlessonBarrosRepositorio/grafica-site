@@ -17,7 +17,7 @@
     
 </head>
 <body>
-        <a style="z-index:9999;" href="../index.php"><-</a>
+    <a style="z-index:9999; position:absolute; top:5%; left:10%; width:20px; height:20px;" href="../index.php"><img src="../midia/seta.png" alt=""></a>
     <div class="top">
         <div class="topArea">
             <div class="logo">
