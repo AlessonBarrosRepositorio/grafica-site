@@ -139,8 +139,8 @@
                             <section class="personagens bottom02area somb">
                                 <h1 class="titulo">Galeria de Trabalhos</h1>
                                 <ul class="lista-de-personagens">
-                                    <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="tela de proteção janela com abertura dupla">
-                                        <img src="../../midia/fotoPequenaFolhetoGlossy.png" alt="tela de proteção janela com abertura dupla">
+                                    <li class="personagem selecionado" id="imagem01" data-name="Panfleto" data-description="Panfleto feito em Glossy">
+                                        <img src="../../midia/fotoGrandeFolhetoGlossy.png" alt="mão segurando panfleto">
                                     </li>
                                     <li class="personagem" id="imagem02" data-name="Tela de Janela com abertura" data-description="Tela de Janela com abertura">
                                         <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela com abertura">
@@ -169,10 +169,10 @@
                                 </ul>
                             </section>
                             <section class="personagem-selecionado top02area">
-                                <img class="personagem-grande" src="../../midia/fotoGrandeFolhetoGlossy.png" alt="tela de proteção janela com abertura dupla">
+                                <img class="personagem-grande" src="../../midia/fotoGrandeFolhetoGlossy.png" alt="Mão segurando Panfleto">
                                 <div class="informacoes-personagem">
-                                    <h2 class="nome-personagem" id="nome-personagem">tela de proteção janela com abertura dupla</h2>
-                                    <p class="descricao-personagem" id="descricao-personagem">tela de proteção janela com abertura dupla</p>
+                                    <h2 class="nome-personagem" id="nome-personagem">Panfleto</h2>
+                                    <p class="descricao-personagem" id="descricao-personagem">Panfleto em papel glossy com um brilho incomparável</p>
                                 </div>
                             </section>
                         </main>

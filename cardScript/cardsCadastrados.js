@@ -12,7 +12,7 @@ function cards() {
         containerEventos.innerHTML = `
   
                     <div class="carta" id="carta01">
-                        <img src="https://live.staticflickr.com/65535/54049000212_d59c306347_m.jpg" alt="imagem de um gato na janela com tela de proteção" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158368029_fb4b3bd611_z.jpg" alt="Mão segurando panfleto" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Serviços Gráficos <br>de Alta Qualidade
@@ -20,7 +20,7 @@ function cards() {
                         </div>
                     </div>
                     <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54165671906_8fdc301f64_m.jpg" alt="imagem de um quarto com uma cama e mosqueteiro" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158331374_5e917ce4ac_z.jpg" alt="imagem de um quarto com uma cama e mosqueteiro" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Impessões com Alta<br>Fidelidade
@@ -29,7 +29,7 @@ function cards() {
 
                     </div>
                     <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54040411304_4c7c802ba3_m.jpg" alt="imagem de uma quadra de esportes com grade de proteção verde" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158301714_db1136f1ff_z.jpg" alt="imagem de uma quadra de esportes com grade de proteção verde" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Adesivos Grandes <br> e Pequenos
@@ -37,7 +37,7 @@ function cards() {
                         </div>
                     </div>
                     <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54049661141_4a1d4c6daf_m.jpg" alt="imagem de um especialista em telas e rede conversando com seu subordinado" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158051256_e2b0375611_z.jpg" alt="imagem de um especialista em telas e rede conversando com seu subordinado" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Adesivos em conotrono
@@ -46,7 +46,7 @@ function cards() {
 
                     </div>
                     <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54050135000_ce85b90da4_m.jpg" alt="imagem de duas mãos apertadas pois estão fazendo um negocio confiavel sobre telas e redes de proteção" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158187438_7ab07ecbfd_z.jpg" alt="imagem de duas mãos apertadas pois estão fazendo um negocio confiavel sobre telas e redes de proteção" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Cartões de visitas
@@ -64,7 +64,7 @@ function cards() {
 
                     </div>
                                         <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54050135000_ce85b90da4_m.jpg" alt="imagem de duas mãos apertadas pois estão fazendo um negocio confiavel sobre telas e redes de proteção" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/55158527510_8095e47ec3_z.jpg" alt="imagem de duas mãos apertadas pois estão fazendo um negocio confiavel sobre telas e redes de proteção" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Personalizados
