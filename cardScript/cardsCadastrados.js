@@ -74,18 +74,18 @@ function cards() {
                     </div>
 
                     <div class="carta">
-                        <a target="_blank" class="imgCarta"title="Esse link te enviará para a localização no google maps que lhe mostrará esse endereço aqui: Endereço: Rua Barata Ribeiro 692, Lj 21 e 23 - Copacabana" href="https://maps.app.goo.gl/puM3S3Rue1uzUD6t7"><img src="https://live.staticflickr.com/65535/54050149855_15da1fbf53_m.jpg" alt=" esse é a imagem da localização no google maps" class="imgCarta"></a>
+                        <a target="_blank" class="imgCarta"title="Esse link te enviará para a localização no google maps que lhe mostrará esse endereço aqui: Endereço: Rua Barata Ribeiro 692, Lj 8 - Copacabana" href="https://share.google/VtRunUuOwke3VnqGE"><img src="https://live.staticflickr.com/65535/55158568729_ace7bb2f07_z.jpg" alt=" esse é a imagem da localização no google maps" class="imgCarta"></a>
                         <div class="h2Carta">
                             <h2>
-                                <a target="_blank" class="imgCarta" title="Esse link te enviará para a localização no google maps que lhe mostrará esse endereço aqui: Endereço: Rua Barata Ribeiro 692, Lj 21 e 23 - Copacabana" href="https://maps.app.goo.gl/puM3S3Rue1uzUD6t7">Nos encontre Aqui</a>
+                                <a target="_blank" class="imgCarta" title="Esse link te enviará para a localização no google maps que lhe mostrará esse endereço aqui: Endereço: Rua Barata Ribeiro 692, Lj 8 - Copacabana" href="https://share.google/VtRunUuOwke3VnqGE">Nos encontre Aqui</a>
                             </h2>
                         </div>
                     </div>
                     <div class="carta instagram-embed">
-                       <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp" href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="imgCarta"><img src="https://live.staticflickr.com/65535/54049024762_23b728ba0b_m.jpg" alt="imagem do perfil da telas e redes de proteção adelimp" class="imgCarta"></a>
+                       <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp" href="https://www.instagram.com/graficarapidaprofissional?utm_source=qr&igsh=ZW4zZmoza2Y5bDZ2" class="imgCarta"><img src="https://live.staticflickr.com/65535/55158707295_23ff70729f_z.jpg" alt="imagem do perfil da telas e redes de proteção adelimp" class="imgCarta"></a>
                         <div class="h2Carta">
                             <h2>
-                                <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp"  href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Nos siga no instagram</a>
+                                <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp"  href="https://www.instagram.com/graficarapidaprofissional?utm_source=qr&igsh=ZW4zZmoza2Y5bDZ2">Nos siga no instagram</a>
                             </h2>
                         </div>
                     </div>
